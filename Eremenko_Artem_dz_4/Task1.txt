@@ -1,0 +1,30 @@
+1. C:\Users\Артем>pip show pillow
+Name: Pillow
+Version: 9.0.0
+Summary: Python Imaging Library (Fork)
+Home-page: https://python-pillow.org
+Author: Alex Clark (PIL Fork Author)
+Author-email: aclark@python-pillow.org
+License: HPND
+Location: c:\users\артем\appdata\local\programs\python\python310\lib\site-packages
+Requires:
+Required-by:
+
+3.PS C:\Users\Артем\Desktop\GeekBrains\Eremenko_Artem_dz\Eremenko_Artem_dz_4> python -m venv first_venv
+PS C:\Users\Артем\Desktop\GeekBrains\Eremenko_Artem_dz\Eremenko_Artem_dz_4> .\first_venv\Scripts\activate
+(first_venv) PS C:\Users\Артем\Desktop\GeekBrains\Eremenko_Artem_dz\Eremenko_Artem_dz_4> pip show pillow
+WARNING: Package(s) not found: pillow
+
+4.Установлен requests вместо pillow потому-что при попытке установить pillow в виртуальном окружении выдаёт простыню ошибок
+(first_venv) PS C:\Users\Артем\Desktop\GeekBrains\Eremenko_Artem_dz\Eremenko_Artem_dz_4> pip install requests==2.6.0
+Collecting requests==2.6.0
+  Downloading requests-2.6.0-py2.py3-none-any.whl (469 kB)
+     |████████████████████████████████| 469 kB 819 kB/s
+Installing collected packages: requests
+Successfully installed requests-2.6.0
+WARNING: You are using pip version 21.2.4; however, version 22.0.2 is available.
+You should consider upgrading via the 'C:\Users\Артем\Desktop\GeekBrains\Eremenko_Artem_dz\Eremenko_Artem_dz_4\first_venv\Scripts\python.exe -m pip install --upgrade pi
+p' command.
+
+5.(first_venv) PS C:\Users\Артем\Desktop\GeekBrains\Eremenko_Artem_dz\Eremenko_Artem_dz_4> deactivate
+PS C:\Users\Артем\Desktop\GeekBrains\Eremenko_Artem_dz\Eremenko_Artem_dz_4>
